@@ -1,0 +1,35 @@
+nav {
+  padding: 5%;
+  margin-top: 1.2%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbtn {
+  font-size: 20px;
+}
+
+#Hero-name {
+  cursor: pointer;
+}
+#Logout {
+  border: 1px solid rgb(172, 166, 166);
+  padding: 1%;
+  border-radius: 2px;
+  cursor: pointer;
+  padding-left: 14%;
+  color: royalblue;
+}
+
+@media (max-width: 768px) {
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .navbtn {
+    font-size: 15px !important;
+  }
+}

@@ -1,0 +1,92 @@
+.Banner-container {
+  height: 70vh;
+  margin-top: 1.2%;
+  background-image: url("https://s0.wp.com/wp-content/themes/pub/montagna/assets/images/pexels-s-migaj-951076.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  justify-content: center;
+  align-items: center;
+  > h1 {
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+  }
+  > p {
+    
+    letter-spacing: 2px;
+  }
+}
+.btn {
+  min-height: 48px;
+  min-width: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(90deg, transparent);
+  border: 2px solid #acf7ff;
+  color: black;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn :before {
+  content: "";
+  width: 4px;
+  height: 28px;
+  background: #19173b;
+  border: 2px solid #acf7ff;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+  bottom: -7px;
+  left: 4px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  bottom: -2px;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #fffcf7;
+}
+.btn:hover {
+  color: black;
+}
+h1 {
+  color: rgb(25, 24, 24);
+  font-weight: 500;
+}
+
+p {
+  color: black;
+  font-weight: 600;
+}
+
+Button {
+  text-align: end;
+}
+
+.main-card{
+  display: flex;
+  justify-content: center;
+align-items:center;
+}

@@ -1,0 +1,55 @@
+// Card.scss
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  
+  @media (max-width: 768px) {
+    // flex-direction: column;
+    // justify-content: center;
+    // margin: auto;
+    // align-items: center;
+  }
+}
+
+.card {
+  flex: 1;
+  max-width: 375px;
+  
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+
+  .MuiCard-root {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border: 1px solid #ccc;
+    
+    .MuiCardMedia-root {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+    
+    .MuiCardContent-root {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      
+      .MuiTypography-root {
+        margin-bottom: 10px;
+      }
+      
+      .MuiCardActions-root {
+        justify-content: center;
+        
+        .MuiButton-root {
+          text-transform: none;
+        }
+      }
+    }
+  }
+}

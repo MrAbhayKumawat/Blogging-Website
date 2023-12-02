@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.banner {
+  width: 100%;
+  text-align: center;
+  opacity: 2.9;
+  height: 100vh;
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6evwEn0rrf7AfPVkJyGiev8wIT6Ezp7yTiBPzQLK_0pb7ueAcFcHfd5poDXuwONXyQQ0uS3TDx0ZYI9Qrj9lRCykeqAwCapeTNpqJtI7lnhKfffQPslosMz0zXDjPvB3mrdQvMDOUigMXFq_faz3TSrX7clmTr6D5mFb_KnGiLuNuEbOov9pdSO2PHWSx/w605-h454/jess-bailey-q10VITrVYUM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column; /* Added this line to make items stack vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.banner nav {
+  text-align: center;
+
+  margin-top: 0px; /* Adjust the top margin as needed */
+}
+
+.banner nav a {
+  text-align: center;
+  margin-bottom: 2%;
+  // margin: 0 10px; /* Add margin to space out the nav items */
+}
+
+.banner .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.banner .container .hero-main button {
+  border-radius: 2px;
+  padding: 1%;
+  text-align: center;
+  margin: auto;
+}
+.banner .container .hero-main {
+  // border: 1px solid black;
+  padding: 5%;
+  box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01),
+    0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09),
+    0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.banner .container h1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+.banner .container p {
+  font-size: 1.2rem;
+}
+
+// .banner button {
+//   background: transparent;
+//   border: none;
+//   border-radius: 5%;
+//   font-weight: 600;
+//   color: black;
+//   border: 1px solid gray;
+//   padding: 1.2%;
+// }
+
+.submit {
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: 0.3s ease;
+}
+
+.submit:hover {
+  background-color: rgb(56, 90, 194);
+}
+.Login {
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  padding: 12px;
+  // margin-right: 5%;
+  letter-spacing: 5px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: 0.3s ease;
+}
+
+.submit:hover {
+  background-color: rgb(56, 90, 194);
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .banner {
+    width: 100%;
+    text-align: center;
+    opacity: 2.9;
+    height: 100vh;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6evwEn0rrf7AfPVkJyGiev8wIT6Ezp7yTiBPzQLK_0pb7ueAcFcHfd5poDXuwONXyQQ0uS3TDx0ZYI9Qrj9lRCykeqAwCapeTNpqJtI7lnhKfffQPslosMz0zXDjPvB3mrdQvMDOUigMXFq_faz3TSrX7clmTr6D5mFb_KnGiLuNuEbOov9pdSO2PHWSx/w605-h454/jess-bailey-q10VITrVYUM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column; /* Added this line to make items stack vertically */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner nav {
+    text-align: center;
+
+    margin-top: 0px; /* Adjust the top margin as needed */
+  }
+
+  .banner nav a {
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+  .banner .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .banner .container .hero-main button {
+    border-radius: 2px;
+    padding: 1%;
+  }
+
+  .banner .container h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+
+  .banner .container p {
+    font-size: 1rem;
+  }
+
+  .Login {
+    background-color: transparent;
+    padding: 8px;
+    font-weight: 800;
+    border: 1px solid black;
+    // margin-right: 5%;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    transform: 0.3s ease;
+  }
+
+  .submit {
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: 0.3s ease;
+  }
+
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+  }
+}

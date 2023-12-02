@@ -1,0 +1,16 @@
+/* NotFound.css */
+.not-found-container {
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  

@@ -1,0 +1,43 @@
+/* AboutUs.css */
+
+.about-us-container {
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  h1 {
+    letter-spacing: 5px;
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.6;
+    max-width: 800px;
+    color: #666;
+  }
+  
+  img {
+    height: 30vh;
+  }
+  
+  .about-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 900px) {
+    .about-us-container,
+    .about-con {
+      flex-direction: column;
+    }
+   
+  }
+  /* Add more styles as needed */
+  

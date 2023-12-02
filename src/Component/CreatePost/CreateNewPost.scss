@@ -1,0 +1,162 @@
+.main-con {
+  display: flex;
+  justify-content: center;
+  // padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Post-container {
+  width: 58%;
+  height: auto;
+  background-color: rgb(225, 220, 215);
+}
+h4 {
+  padding: 1.5%;
+}
+.uploaded-image {
+  width: 100%;
+  height: 58vh;
+}
+img {
+  width: 100%;
+}
+
+.img-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  min-width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+  background-color: rgba(253, 250, 250, 0.493);
+}
+
+.input {
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+  outline: none;
+  color: dimgray;
+}
+
+.input:invalid {
+  animation: justshake 0.3s forwards;
+  color: red;
+}
+
+.input-field {
+  padding: 2%;
+}
+textarea {
+  min-height: 50vh;
+}
+.publish-post {
+  text-align: center;
+  width: 100%;
+  font-size: 1.3rem;
+  border: none;
+  height: 6vh;
+  color: white;
+  letter-spacing: 1.5px;
+  background-color: royalblue;
+}
+
+@media (max-width: 768px) {
+  .main-con {
+    display: flex;
+    justify-content: center;
+    // padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .Post-container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(225, 220, 215);
+  }
+  h4 {
+    padding: 1.5%;
+  }
+
+  .img-con {
+    display: flex;
+    justify-content: center;
+  }
+  .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+    background-color: rgba(253, 250, 250, 0.493);
+  }
+
+  .input {
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+  }
+
+  .input:invalid {
+    animation: justshake 0.3s forwards;
+    color: red;
+  }
+
+  .input-field {
+    padding: 2%;
+  }
+
+  .publish-post {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@keyframes justshake {
+  25% {
+    transform: translateX(5px);
+  }
+
+  50% {
+    transform: translateX(-5px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX-(5px);
+  }
+}
+#bottone1 {
+  background: transparent;
+  border: none;
+  padding-right: 3%;
+  padding-bottom: 0.8%;
+  color: rgb(11, 67, 236);
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#bottone1:hover {
+  box-shadow: 7px 5px 56px -14px #c3d900;
+}
+
+#bottone1:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #c3d900;
+}
